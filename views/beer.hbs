@@ -1,0 +1,8 @@
+<div class="container">
+    <h2>Beers</h2>
+    <div class="card">
+        {{#each beersFromApi}}
+        {{>beerCard this}}
+        {{/each}}
+    </div>
+</div>
